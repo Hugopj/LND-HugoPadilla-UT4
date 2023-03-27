@@ -81,28 +81,81 @@
                 <section id="principal">
                     <div class="container" id="logo">
                         <div class="row">
+
+                          <!-- LOGO DE LUXXIO--> 
                           <div class="col-sm-6">
                             <img src="LUXXIO.png" alt="Descripción de la imagen 1" class="img-fluid"> <!-- ESTA CLASE PERMITE QUE LA IMAGEN SE AJUSTE AL DISPOSITIVO CON EL QUE SE VISUALIZA LA PÁGINA --> 
-                            <p>Texto debajo de la imagen 1</p>
                           </div>
+
+                          <!-- POPOVERS--> 
                           <div class="col-sm-6">
                             <img src="ABOUT.png" alt= class="img-fluid"> <!-- ESTA CLASE PERMITE QUE LA IMAGEN SE AJUSTE AL DISPOSITIVO CON EL QUE SE VISUALIZA LA PÁGINA --> 
-                            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Why Luxxio?" data-bs-content="We are the NUMBER 1 company with +34.000.000 sells, +20 quality certifications and the only ones with our own glass-lab!">Why Luxxio?</button>
+                            <button type="button" class="btn btn-lg btn-warning" data-bs-toggle="popover" data-bs-title="Why Luxxio?" data-bs-content="Luxxio is committed to using only the highest-quality materials, ensuring that our glasses are both durable and comfortable to wear. We stand behind the quality of our glasses with a comprehensive warranty, giving customers peace of mind and confidence in their purchase.." data-bs-custom-class="custom-popover">Why Luxxio?</button>
                             <br><br><br><br>
-                            <button id="popover"type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="For everybody" data-bs-content="We offer all type of glasses for all ages! You can buy a pair for your dad, another for your granny and even one pair for your future kids!">For everybody</button>
+
+
+                            <button id="popover"type="button" class="btn btn-lg btn-warning" data-bs-toggle="popover" data-bs-title="For everybody" data-bs-content="We offer all type of glasses for all ages! You can buy a pair for your dad, another for your granny and even one pair for your future kids!">For everybody</button>
                             <br><br><br><br>
-                            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Our story" data-bs-content="We started in 1923 in a small workshop in Birmimgham and now we are WORLDWIDE!">Our story</button>
-                          </div>
+
+
+                            <button type="button" class="btn btn-lg btn-warning" data-bs-toggle="popover" data-bs-title="Our story" data-bs-content="We started in 1923 in a small workshop in Gran Canaria and now we are the NUMBER 1 company with +34.000.000 sells, +20 quality certifications and the only ones with our own glass-lab!">Our story</button>
+                            <br><br><br>
+
+
+                            <button id="popover"type="button" class="btn btn-lg btn-warning" data-bs-toggle="popover" data-bs-title="The founder" data-bs-content="Hugo Padilla, with a vision to bring his designs to the masses, he started his own company, pouring his heart and soul into every pair of glasses he created.">The founder</button>
+                        </div>
                         </div>
                       </div>  
                 </section>
                 
-
-                <!-- SCRIPT NECESARIO PARA POPOVERS -->
+                
+                <!-- SCRIPT NECESARIO PARA POPOVERS -->                                                                                                                                                                                                                                                                                                                                       <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br>
                 <script>
                     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
                     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
                 </script>
+
+
+                <section>
+                    <div id="micarrousel" class="carousel carousel-dark slide carousel-fade">  <!-- AQUÍ LE PONGO LA CLASE "CAROUSEL DARK" PARA TENER LA LETRA OSCURA Y LA CLASE "CAROUSEL-FADE" PARA QUE TENGA UNA TRANSICIÓN DISTINTA --> 
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#micarrousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#micarrousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#micarrousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div id="micarrousel" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="slide1.png" class="d-block w-100" alt="60">  <!-- AQUÍ AÑADO LA IMAGEN --> 
+                            <div class="carousel-caption">  <!-- AQUÍ AÑADO LA CLASE "CAROUSEL-CAPTION" PARA PONER AÑADIR TEXTO --> 
+                                <h1>PRIMERA SLIDE</h1>
+                                <p>TEXTO QUE DEFINA CARACTERÍSTICAS...</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item active">
+                            <img src="LIMITED.png" class="d-block w-100" alt="10">  <!-- AQUÍ AÑADO LA IMAGEN --> 
+                            <div class="carousel-caption">  <!-- AQUÍ AÑADO LA CLASE "CAROUSEL-CAPTION" PARA PONER AÑADIR TEXTO --> 
+                                <h1>LIMITED EDITION HE</h1>
+                            </div>
+                          </div>
+                          <div class="carousel-item active">
+                            <img src="TESTHER.png" class="d-block w-100" alt="..."> <!-- AQUÍ AÑADO LA IMAGEN --> 
+                            <div class="carousel-caption">  <!-- AQUÍ AÑADO LA CLASE "CAROUSEL-CAPTION" PARA PONER AÑADIR TEXTO --> 
+                                <h1>LIMITED EDITION SHE</h1>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#micarrousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#micarrousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden"></span>
+                        </button>
+                      </div>
+                </section>
+                
     </body>
 
 </html>
