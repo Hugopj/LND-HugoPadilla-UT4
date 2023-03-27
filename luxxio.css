@@ -1,0 +1,17 @@
+a:visited { color: #735F32; text-decoration: none }
+
+a:link { color: #735F32; text-decoration: none }
+
+
+
+#logo{
+    float: left;
+    margin-right: 20px; /* opcional, para dar un poco de espacio entre las imágenes */
+    margin-left: 100px;
+    margin-top: 50px;
+    }
+
+
+#popover{
+    float: right;
+}

@@ -24,8 +24,18 @@
         ></script>
 
 
+        <!-- LINK CSS DE ESTILOS -->
+        <link rel="stylesheet" href="luxxio.css">
+        
+        
         <!-- TITULO DE LA PAGINA WEB -->
         <title>LUXXIO</title>
+
+
+        <!-- SCRIPT DE FONTSAWESOME--> 
+        <script src="https://kit.fontawesome.com/8be26fd53f.js" crossorigin="anonymous"></script>
+
+        
     </head>
 
 
@@ -40,6 +50,7 @@
                 <!-- NOMBRE Y LOGO DE LA PÁGINA CON ENLACE A LA PROPIA PÁGINA -->
                 <a class="navbar-brand" href="index.html"><img src="LOGO.png"Logo"/></a>
                 <a class="navbar-brand" href="index.html">LUXXIO</a>
+                <a class="navbar-brand"><img src="banner.png"Banner class="img-fluid"/></a>
 
                  <!-- MENÚ CON 4 ICONOS QUE SE CONVIERTE EN TIPO HAMBURGUESA -->
                 <button class="navbar-toggler" type="button" data-bs-target="#4ICONOS" data-bs-toggle="collapse" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,18 +60,51 @@
                     <ul class="navbar-nav ms-auto">
 
 
-                    <!-- 4 ICONOS CON ENLACES-->        
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home <i class="fa-solid fa-house fa-bounce"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html">Glasses <i class="fa-sharp fa-solid fa-glasses"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html">Send gift <i class="fa-sharp fa-solid fa-gift"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html">Shopping basket <i class="fa-sharp fa-solid fa-basket-shopping"></i></a></li>
+                    <!-- 4 ICONOS CON ENLACES--> 
+                    <span>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home <i class="fa-solid fa-house fa-bounce"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Glasses <i class="fa-sharp fa-solid fa-glasses"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Send gift <i class="fa-sharp fa-solid fa-gift"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Shopping basket <i class="fa-sharp fa-solid fa-basket-shopping"></i></a></li>
+                    </span>
+                    
 
-
-                    <!-- SCRIPT DE FONTSAWESOME--> 
-                    <script src="https://kit.fontawesome.com/8be26fd53f.js" crossorigin="anonymous"></script>
                     </ul>
                 </div>
+            </nav>    
+            
+        </header>
+
+
+                <!-- PRIMERA SECCIÓN--> 
+
+                <section id="principal">
+                    <div class="container" id="logo">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <img src="LUXXIO.png" alt="Descripción de la imagen 1" class="img-fluid"> <!-- ESTA CLASE PERMITE QUE LA IMAGEN SE AJUSTE AL DISPOSITIVO CON EL QUE SE VISUALIZA LA PÁGINA --> 
+                            <p>Texto debajo de la imagen 1</p>
+                          </div>
+                          <div class="col-sm-6">
+                            <img src="ABOUT.png" alt= class="img-fluid"> <!-- ESTA CLASE PERMITE QUE LA IMAGEN SE AJUSTE AL DISPOSITIVO CON EL QUE SE VISUALIZA LA PÁGINA --> 
+                            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Why Luxxio?" data-bs-content="We are the NUMBER 1 company with +34.000.000 sells, +20 quality certifications and the only ones with our own glass-lab!">Why Luxxio?</button>
+                            <br><br><br><br>
+                            <button id="popover"type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="For everybody" data-bs-content="We offer all type of glasses for all ages! You can buy a pair for your dad, another for your granny and even one pair for your future kids!">For everybody</button>
+                            <br><br><br><br>
+                            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Our story" data-bs-content="We started in 1923 in a small workshop in Birmimgham and now we are WORLDWIDE!">Our story</button>
+                          </div>
+                        </div>
+                      </div>  
+                </section>
                 
+
+                <!-- SCRIPT NECESARIO PARA POPOVERS -->
+                <script>
+                    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+                    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+                </script>
     </body>
 
 </html>
+
+  
