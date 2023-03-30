@@ -15,3 +15,115 @@ a:link { color: #735F32; text-decoration: none }
 #popover{
     float: right;
 }
+
+body{
+    font-family: 'Cinzel', serif;
+}
+
+
+#gafas{
+    background-color: black;
+}
+
+#gafascentro{
+    text-align: center;
+    color: #C69749;
+  
+}
+
+#card-body{
+    text-align: center;
+    color: black;
+}
+
+#card-header{
+    color: white;
+    text-align: center;
+}
+
+#paginasextra{
+    text-align: center;
+    background-color: #282A3A;
+    color: white;
+}
+
+.contenedor {
+    color: white;
+    background-color: #282A3A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texto-izquierdo, .texto-derecho {
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .imagen-centrada {
+    flex: 1;
+    text-align: center;
+  }
+
+#titulo{
+    text-align: center;
+    background-color: #282A3A;
+    color: white;
+    font-size: 60px;
+    margin-bottom: auto;
+}
+
+
+#estilo {
+    margin: 25px;
+    opacity: 0.8;
+    border: 3px solid #eee;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+ 
+#estilo:hover {
+    opacity: 1;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footer{
+    background-color: #282A3A;
+    padding: 40px 0;
+
+}
+
+#socialmedia{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 40px;
+    opacity: 0.75;
+    
+}
+
+#lista{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+ 
+li {
+    flex: 1;
+}
