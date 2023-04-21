@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>Gafas de sol con cámara, la nueva tecnología</title>
+    <title>Noticias</title>
     <link>https://hugopj.github.io/LND-HugoPadilla-UT4/</link>
     <description>Gafas de sol con cámara, puede que haya llegado una nueva mode que revolucione</description>
     <item>
@@ -12,7 +12,7 @@
       <category>Fashion</category>
       <link>https://hugopj.github.io/LND-HugoPadilla-UT4/japan.html</link>
       <enclosure url="https://soloptical.net/pub/media/catalog/product/cache/a237138a07ed0dd2cc8a6fa440635ea6/1/3/139.jpg"
-      length="200" type="jpg"/>
+      length="200" type="image/jpg"/>
       <pudDate>19/04/23</pudDate>
       <img/>
     </item>
@@ -22,7 +22,7 @@
       <description>KABUKI ZEN are a premium eyewear accessory made in Japan that combines impeccable style with superior craftsmanship.</description>
       <category>Fashion</category>
       <enclosure url="https://www.shutterstock.com/image-photo/red-sunglasses-isolated-on-white-260nw-1709760187.jpg"
-      length="200" type="jpg" />
+      length="200" type="image/jpg" />
       <pudDate>19/04/23</pudDate>
     </item>
     <item>
@@ -31,7 +31,7 @@
       <description>KABUKI ZEN are a premium eyewear accessory made in Japan that combines impeccable style with superior craftsmanship.</description>
       <category>Fashion</category>
       <enclosure url="https://img.freepik.com/vector-premium/gafas-sol-hipster-negro_47243-602.jpg"
-      length="200" type="jpg" />
+      length="200" type="image/jpg" />
       <pudDate>19/04/23</pudDate>
     </item>
   </channel>
