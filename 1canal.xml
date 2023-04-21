@@ -5,6 +5,7 @@
     <link>https://hugopj.github.io/LND-HugoPadilla-UT4/</link>
     <description>Gafas de sol con cámara, puede que haya llegado una nueva mode que revolucione</description>
     <item>
+      <pudDate>Fri, 21 Apr 2023 21:30:00 GMT</pudDate>
       <title>Nuevo Modelo Vlore View</title>
       <link>https://hugopj.github.io/LND-HugoPadilla-UT4/albania.html</link>
       <description>VLORE VIEW are a high-quality and stylish accessory that offers excellent eye protection and enhances your visual experience.
@@ -13,26 +14,28 @@
       <link>https://hugopj.github.io/LND-HugoPadilla-UT4/japan.html</link>
       <enclosure url="https://hugopj.github.io/LND-HugoPadilla-UT4/five.png"
       length="200" type="image/png"/>
-      <pudDate>Fri, 21 Apr 2023 00:00:00 GMT</pudDate>
+
       
     </item>
     <item>
       <title>Nuevo Modelo Kabuki Zen</title>
+      <pudDate>Fri, 22 Apr 2023 22:00:03 GMT</pudDate>
       <link>https://hugopj.github.io/LND-HugoPadilla-UT4/japan.html</link>
       <description>KABUKI ZEN are a premium eyewear accessory made in Japan that combines impeccable style with superior craftsmanship.</description>
       <category>News</category>
       <enclosure url="https://hugopj.github.io/LND-HugoPadilla-UT4/one.png"
       length="200" type="image/png" />
-      <pudDate>Fri, 21 Apr 2023 00:00:00 GMT</pudDate>
+      
     </item>
     <item>
       <title>Nuevo Modelo Thames Times</title>
+      <pudDate>Fri, 23 Apr 2020 00:00:00 GMT</pudDate>
       <link>https://hugopj.github.io/LND-HugoPadilla-UT4/yorkshire.html</link>
       <description>Even your grandma will feel extremly confortable with this new stylish pair of sunglasses that are made with the best materials you could ever expect. Make the decision and make it happen</description>
       <category>News</category>
       <enclosure url="https://hugopj.github.io/LND-HugoPadilla-UT4/six.png"
       length="200" type="image/png" />
-      <pudDate>Fri, 21 Apr 2023 00:00:00 GMT</pudDate>
+      
     </item>
   </channel>
 </rss>
