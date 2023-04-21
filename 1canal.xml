@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Gafas de sol con cámara, la nueva tecnología</title>
+    <link>https://hugopj.github.io/LND-HugoPadilla-UT4/</link>
+    <description>Gafas de sol con cámara, puede que haya llegado una nueva mode que revolucione</description>
+    <item>
+      <title>Nuevo Modelo Vlore View</title>
+      <link>https://hugopj.github.io/LND-HugoPadilla-UT4/albania.html</link>
+      <description>VLORE VIEW are a high-quality and stylish accessory that offers excellent eye protection and enhances your visual experience.
+      </description>
+      <category>News</category>
+      <link>https://hugopj.github.io/LND-HugoPadilla-UT4/japan.html</link>
+      <enclosure url="https://www.robertomartin.com/fotos-gafas/2019/03/RO1137M.jpg"
+      length="200" type="jpg"/>
+      <pudDate>19/04/23</pudDate>
+      <img/>
+    </item>
+    <item>
+      
+      <title>Nuevo Modelo Kabuki Zen</title>
+      <link>https://hugopj.github.io/LND-HugoPadilla-UT4/japan.html</link>
+      <description>KABUKI ZEN are a premium eyewear accessory made in Japan that combines impeccable style with superior craftsmanship.</description>
+      <category>News</category>
+      <enclosure url="https://img.freepik.com/vector-premium/gafas-sol-modernas-marcos-plastico-negro-lentes-negros-ilustracion-vectorial_501907-1216.jpg"
+      length="200" type="jpg" />
+      <pudDate>19/04/23</pudDate>
+    </item>
+    <item>
+      <title>Nuevo Modelo KABUKI</title>
+      <link>https://hugopj.github.io/LND-HugoPadilla-UT4/japan.html</link>
+      <description>KABUKI ZEN are a premium eyewear accessory made in Japan that combines impeccable style with superior craftsmanship.</description>
+      <category>News</category>
+      <enclosure url="https://cdn.aarp.net/content/dam/aarp/entertainment/beauty-and-style/2021/05/1140-woman-wearing-sunglasses-esp.jpg"
+      length="200" type="jpg" />
+      <pudDate>19/04/23</pudDate>
+    </item>
+  </channel>
+</rss>
