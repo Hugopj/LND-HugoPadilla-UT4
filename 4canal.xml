@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias</title>
+    <link>https://hugopj.github.io/LND-HugoPadilla-UT4/</link>
+    <description>Las últimas Noticias sobre Gafas</description>
+    <item>
+      <title>Las gafas pueden desaparecer en los próximos años</title>
+      <link>https://hugopj.github.io/LND-HugoPadilla-UT4/albania.html</link>
+      <description>Las gafas de sol han sido un accesorio popular durante décadas, pero ¿podría su desaparición estar en el horizonte? Una posible razón podría ser el aumento de la conciencia ambiental. Las gafas de sol a menudo están hechas de plástico y otros materiales sintéticos que pueden ser difíciles de reciclar y, en última instancia, terminan en vertederos y océanos. Además, el proceso de fabricación de gafas de sol puede ser bastante intensivo en recursos, lo que contribuye a la huella de carbono de la moda. A medida que más personas se preocupan por el impacto ambiental de sus compras, es posible que busquen alternativas más sostenibles a las gafas de sol tradicionales.
+      </description>
+      <category>News</category>
+      <link>https://hugopj.github.io/LND-HugoPadilla-UT4/japan.html</link>
+      <enclosure url="https://media.vogue.es/photos/605c9371e0567940d07d96d6/master/pass/Cover%20gafas.png"
+      length="200" type="image/png"/>
+      <pudDate>Fri, 21 Apr 2023 20:00:00 GMT</pudDate>
+      
+    </item>
+    <item>
+      <title>Gafas con cámara integrada</title>
+      <link>https://hugopj.github.io/LND-HugoPadilla-UT4/japan.html</link>
+      <description>¿Imagina poder capturar sus aventuras al aire libre mientras protege sus ojos del sol? Las gafas de sol con cámara integrada lo hacen posible. Con estas gafas, puede grabar videos y tomar fotos con solo presionar un botón en la montura de las gafas. Además, las gafas de sol con cámara integrada ofrecen una excelente calidad de imagen, lo que las convierte en una excelente opción para aquellos que buscan capturar momentos únicos mientras disfrutan del aire libre. Desde deportes extremos hasta viajes, estas gafas le permitirán documentar sus experiencias de una manera única y emocionante. ¡Las gafas de sol con cámara integrada son el complemento perfecto para los aventureros modernos!</description>
+      <category>Fashion</category>
+      <enclosure url="https://www.afflelou.es/blog/wp-content/uploads/cambiar-cristales-gafas.png"
+      length="200" type="image/png" />
+      <pudDate>Fri, 21 Apr 2023 11:00:00 GMT</pudDate>
+    </item>
+    <item>
+      <title>La locura de las gafas en verano</title>
+      <link>https://hugopj.github.io/LND-HugoPadilla-UT4/yorkshire.html</link>
+      <description>Con la llegada del verano, aumenta la demanda de gafas de sol, lo que a su vez puede hacer que los precios suban. En general, los precios de las gafas de sol varían según la marca, la calidad y el estilo, pero en la temporada alta de verano, los precios pueden aumentar en un 20-30%. Este aumento se debe a la alta demanda de gafas de sol en la época del año en que más personas salen al aire libre. Es importante señalar que también puede haber promociones y descuentos en las tiendas que venden gafas de sol durante la temporada de verano, por lo que es importante comparar precios antes de hacer una compra.
+      </description>
+      <category>News</category>
+      <enclosure url="https://e7.pngegg.com/pngimages/262/667/png-clipart-summer-computer-icons-cartoon-summer-sticker-summer.png"
+      length="200" type="image/png" />
+      <pudDate>Fri, 21 Apr 2023 10:00:00 GMT</pudDate>
+    </item>
+  </channel>
+</rss>
